@@ -16,7 +16,7 @@ mongoose.connect("mongodb://localhost:27017/fastify")
 
 // routes
 fastify.get('/', async (request,reply) => {
-    return {visitor : "lco.in"}
+    return {visitor : "hey there"}
 } )
 
 routes.forEach( (route,index) => {
